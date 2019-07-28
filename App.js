@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <View style={{ flex: 1 }}>
         <View
-          style={{ flex: 1, flexDirection: "row", backgroundColor: "#a7d8fe" }}
+          style={{ flex: 1, flexDirection: "row", backgroundColor: "#b3ffff" }}
         >
           <TouchableOpacity
             style={{
@@ -64,7 +64,7 @@ class App extends Component {
           <View
             style={{
               flex: 2,
-              backgroundColor: "red",
+              backgroundColor: "#99ffcc",
               margin: 10,
               borderColor: "black",
               borderWidth: 2,
@@ -88,7 +88,7 @@ class App extends Component {
             <View
               style={{
                 flex: 1,
-                backgroundColor: "#15d1a4",
+                backgroundColor: "#ffff99",
                 margin: 2,
                 marginTop: 0,
                 flexDirection: "row-reverse",
@@ -393,7 +393,7 @@ class App extends Component {
             <View
               style={{
                 flex: 2,
-                backgroundColor: "#15d1a4",
+                backgroundColor: "#ffff99",
                 margin: 2,
                 marginTop: 0,
                 flexDirection: "row-reverse",
@@ -411,7 +411,7 @@ class App extends Component {
               >
                 <TouchableOpacity
                   style={{
-                    width: "18%",
+                    flex: 1,
                     alignItems: "center",
                     justifyContent: "center",
                     borderColor: "black",
@@ -422,6 +422,146 @@ class App extends Component {
                 >
                   <Text style={{ marginRight: 5, fontSize: 22 }}>=</Text>
                 </TouchableOpacity>
+              </View>
+              <View
+                style={{
+                  flex: 1,
+                  margin: 2,
+                  marginTop: 0,
+                  flexDirection: "column-reverse",
+                  justifyContent: "space-between"
+                }}
+              >
+                <TouchableOpacity
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "center",
+                    borderColor: "black",
+                    borderWidth: 2,
+                    margin: 2,
+                    alignSelf: "stretch"
+                  }}
+                >
+                  <Text style={{ marginRight: 5, fontSize: 22 }}>-</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "center",
+                    borderColor: "black",
+                    borderWidth: 2,
+                    margin: 2,
+                    alignSelf: "stretch"
+                  }}
+                >
+                  <Text style={{ marginRight: 5, fontSize: 22 }}>+</Text>
+                </TouchableOpacity>
+              </View>
+              <View
+                style={{
+                  flex: 1,
+                  margin: 2,
+                  marginTop: 0,
+                  flexDirection: "column-reverse",
+                  justifyContent: "space-between"
+                }}
+              >
+                <TouchableOpacity
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "center",
+                    borderColor: "black",
+                    borderWidth: 2,
+                    margin: 2,
+                    alignSelf: "stretch"
+                  }}
+                >
+                  <Text style={{ marginRight: 5, fontSize: 22 }}>.</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={{
+                    flex: 1,
+                    alignItems: "center",
+                    justifyContent: "center",
+                    borderColor: "black",
+                    borderWidth: 2,
+                    margin: 2,
+                    alignSelf: "stretch"
+                  }}
+                >
+                  <Text style={{ marginRight: 5, fontSize: 22 }}>3</Text>
+                </TouchableOpacity>
+              </View>
+              <View
+                style={{
+                  flex: 2,
+                  margin: 2,
+                  marginTop: 0,
+                  flexDirection: "column",
+                  justifyContent: "space-between"
+                }}
+              >
+                <View
+                  style={{
+                    flex: 1,
+                    margin: 2,
+                    marginTop: 0,
+                    flexDirection: "row-reverse",
+                    justifyContent: "space-between"
+                  }}
+                >
+                  <TouchableOpacity
+                    style={{
+                      flex: 1,
+                      alignItems: "center",
+                      justifyContent: "center",
+                      borderColor: "black",
+                      borderWidth: 2,
+                      margin: 2,
+                      alignSelf: "stretch"
+                    }}
+                  >
+                    <Text style={{ marginRight: 5, fontSize: 22 }}>2</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    style={{
+                      flex: 1,
+                      alignItems: "center",
+                      justifyContent: "center",
+                      borderColor: "black",
+                      borderWidth: 2,
+                      margin: 2,
+                      alignSelf: "stretch"
+                    }}
+                  >
+                    <Text style={{ marginRight: 5, fontSize: 22 }}>1</Text>
+                  </TouchableOpacity>
+                </View>
+                <View
+                  style={{
+                    flex: 1,
+                    margin: 2,
+                    marginTop: 0,
+                    justifyContent: "space-between"
+                  }}
+                >
+                  <TouchableOpacity
+                    style={{
+                      flex: 1,
+                      alignItems: "center",
+                      justifyContent: "center",
+                      borderColor: "black",
+                      borderWidth: 2,
+                      margin: 2,
+                      alignSelf: "stretch"
+                    }}
+                  >
+                    <Text style={{ marginRight: 5, fontSize: 22 }}>0</Text>
+                  </TouchableOpacity>
+                </View>
               </View>
             </View>
           </View>
